@@ -1,0 +1,24 @@
+{
+  "name": "@tipix.dev/ngf",
+  "version": "0.1.0",
+  "description": "This is a firewall with a generative passthrough.",
+  "keywords": [
+    "ngf",
+    "firewall"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "GPL-3.0",
+  "author": "Tipix.dev",
+  "type": "module",
+  "main": "main.js",
+  "bin": {
+    "ngf": "src/bin/ngf.js",
+    "glog": "src/bin/glog.js"
+  },
+  "dependencies": {
+    "datetime": "^0.0.3",
+    "prompt-sync": "^4.2.0"
+  }
+}
